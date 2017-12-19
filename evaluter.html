@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>typing evaluter</title>
+    <link rel="stylesheet" href="./game.css">
+    <script src="words.js" charset="utf-8"></script>
+    <script src="typingEvaluter.js" charset="utf-8"></script>
+    <script src="type.js" charset="utf-8"></script>
+
+  </head>
+  <body id='body'>
+    <div id="mainDiv">
+      <div id="text" ></div>
+      <div class="type" >
+        <textarea id="textArea" ></textarea>
+      </div>
+    </div>
+    <div id="scoreDiv">
+      <label for="correct" id='correctKey'>Correct</label>
+      <p id="correct"></p>
+      <label for="wrong" id='wrongKey'>Incorrect</label>
+      <p id="wrong"></p>
+      <button type="button" id = 'stop'>Stop</button>
+    </div>
+  </body>
+</html>
+<!-- onkeyup="showCorrectTypeCount()" -->
